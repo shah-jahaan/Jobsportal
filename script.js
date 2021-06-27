@@ -38,7 +38,7 @@ function showJobs (jobs) {
     console.log(jobs);
     let jobsContainer = document.querySelector(".jobs-container");
     let jobsHTML = "";
-    jobs.forEach(jobs => {
+    jobs.forEach(job => {
         jobsHTML += `
             <div class="jobs-tile">
                 <div class="top">
